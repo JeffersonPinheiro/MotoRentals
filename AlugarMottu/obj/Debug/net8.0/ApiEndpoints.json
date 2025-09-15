@@ -1,0 +1,235 @@
+[
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.DeliveryManController",
+    "Method": "Register",
+    "RelativePath": "api/DeliveryMan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MotorcycleRentals.src.Application.DTOs.DeliveryManCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.DeliveryManController",
+    "Method": "GetById",
+    "RelativePath": "api/DeliveryMan/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.DeliveryManController",
+    "Method": "UploadCnhImage",
+    "RelativePath": "api/DeliveryMan/{id}/cnh-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CnhFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleController",
+    "Method": "Create",
+    "RelativePath": "api/Motorcycle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MotorcycleRentals.src.Application.DTOs.MotorcycleCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleController",
+    "Method": "Get",
+    "RelativePath": "api/Motorcycle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plate",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleController",
+    "Method": "GetById",
+    "RelativePath": "api/Motorcycle/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleController",
+    "Method": "Delete",
+    "RelativePath": "api/Motorcycle/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleController",
+    "Method": "UpdatePlate",
+    "RelativePath": "api/Motorcycle/{id}/plate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MotorcycleRentals.src.Application.DTOs.MotorcycleUpdatePlateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleNotificationController",
+    "Method": "GetAll",
+    "RelativePath": "api/MotorcycleNotification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleNotificationController",
+    "Method": "GetByPlate",
+    "RelativePath": "api/MotorcycleNotification/plate/{plate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plate",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.MotorcycleNotificationController",
+    "Method": "GetByYear",
+    "RelativePath": "api/MotorcycleNotification/year/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.RentalController",
+    "Method": "RentMotorcycle",
+    "RelativePath": "api/Rental",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MotorcycleRentals.src.Application.DTOs.RentalCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.RentalController",
+    "Method": "GetById",
+    "RelativePath": "api/Rental/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MotorcycleRentals.src.API.Controllers.RentalController",
+    "Method": "ReturnMotorcycle",
+    "RelativePath": "api/Rental/{id}/return",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MotorcycleRentals.src.Application.DTOs.RentalReturnDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

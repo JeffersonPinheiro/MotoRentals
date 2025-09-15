@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\motorcyclerentals.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\motorcyclerentals.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\src\\api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\src\\api\\extensions\\middlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\src\\application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\src\\application\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\src\\infrastructure\\persistence\\mongodb\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\src\\infrastructure\\persistence\\mongodb\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|e:\\projetos\\mottu\\desafio-backend\\alugarmottu\\alugarmottu\\alugarmottu\\src\\api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB394F2C-1D3B-4EF2-9232-31699ED6B455}|AlugarMottu\\MotorcycleRentals.csproj|solutionrelative:alugarmottu\\src\\api\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MotorcycleRentals",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\MotorcycleRentals.csproj",
+              "RelativeDocumentMoniker": "AlugarMottu\\MotorcycleRentals.csproj",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\MotorcycleRentals.csproj",
+              "RelativeToolTip": "AlugarMottu\\MotorcycleRentals.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-09T21:49:42.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\Program.cs",
+              "RelativeDocumentMoniker": "AlugarMottu\\Program.cs",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\Program.cs",
+              "RelativeToolTip": "AlugarMottu\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T20:23:52.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MiddlewareExtensions.cs",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\API\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "AlugarMottu\\src\\API\\Extensions\\MiddlewareExtensions.cs",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\API\\Extensions\\MiddlewareExtensions.cs",
+              "RelativeToolTip": "AlugarMottu\\src\\API\\Extensions\\MiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T20:23:03.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "AlugarMottu\\src\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "AlugarMottu\\src\\API\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T20:15:43.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\appsettings.json",
+              "RelativeDocumentMoniker": "AlugarMottu\\appsettings.json",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\appsettings.json",
+              "RelativeToolTip": "AlugarMottu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-09T16:32:02.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\Infrastructure\\Persistence\\MongoDb\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "AlugarMottu\\src\\Infrastructure\\Persistence\\MongoDb\\MongoDbContext.cs",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\Infrastructure\\Persistence\\MongoDb\\MongoDbContext.cs",
+              "RelativeToolTip": "AlugarMottu\\src\\Infrastructure\\Persistence\\MongoDb\\MongoDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:27:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\Application\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "AlugarMottu\\src\\Application\\Services\\RentalService.cs",
+              "ToolTip": "E:\\Projetos\\Mottu\\Desafio-BackEnd\\AlugarMottu\\AlugarMottu\\AlugarMottu\\src\\Application\\Services\\RentalService.cs",
+              "RelativeToolTip": "AlugarMottu\\src\\Application\\Services\\RentalService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T16:06:27.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

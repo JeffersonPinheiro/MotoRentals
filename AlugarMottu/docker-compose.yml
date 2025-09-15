@@ -1,0 +1,47 @@
+services:
+api:
+  build:
+    context: .
+    dockerfile: Dockerfile
+  container_name: motorcycle_rentals_api
+  ports:
+    - "5000:8080"
+  environment:
+    - ASPNETCORE_ENVIRONMENT=Development
+    - MongoDb__ConnectionString=mongodb://mongo:27017
+    - MongoDb__Database=MotorcycleRentals
+    - RabbitMq__HostName=rabbitmq
+    - RabbitMq__UserName=guest
+    - RabbitMq__Password=guest
+  depends_on:
+    rabbitmq:
+      condition: service_healthy
+    mongo:
+      condition: service_started
+
+  mongo:
+    image: mongo:6
+    container_name: motorcycle_rentals_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+rabbitmq:
+  image: rabbitmq:3-management
+  container_name: motorcycle_rentals_rabbitmq
+  ports:
+    - "5672:5672"
+    - "15672:15672"
+  environment:
+    - RABBITMQ_DEFAULT_USER=guest
+    - RABBITMQ_DEFAULT_PASS=guest
+  healthcheck:
+    test: ["CMD", "rabbitmq-diagnostics", "check_running"]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+
+volumes:
+  mongo_data:

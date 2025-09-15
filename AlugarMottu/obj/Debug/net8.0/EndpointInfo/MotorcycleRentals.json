@@ -1,0 +1,528 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MotorcycleRentals",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/DeliveryMan": {
+      "post": {
+        "tags": [
+          "DeliveryMan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryManCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryManCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeliveryManCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeliveryMan/{id}": {
+      "get": {
+        "tags": [
+          "DeliveryMan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DeliveryMan/{id}/cnh-image": {
+      "post": {
+        "tags": [
+          "DeliveryMan"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "CnhFile"
+                ],
+                "type": "object",
+                "properties": {
+                  "CnhFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Motorcycle": {
+      "post": {
+        "tags": [
+          "Motorcycle"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Motorcycle"
+        ],
+        "parameters": [
+          {
+            "name": "plate",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Motorcycle/{id}": {
+      "get": {
+        "tags": [
+          "Motorcycle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Motorcycle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Motorcycle/{id}/plate": {
+      "put": {
+        "tags": [
+          "Motorcycle"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdatePlateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdatePlateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MotorcycleUpdatePlateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MotorcycleNotification": {
+      "get": {
+        "tags": [
+          "MotorcycleNotification"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MotorcycleNotification/year/{year}": {
+      "get": {
+        "tags": [
+          "MotorcycleNotification"
+        ],
+        "parameters": [
+          {
+            "name": "year",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MotorcycleNotification/plate/{plate}": {
+      "get": {
+        "tags": [
+          "MotorcycleNotification"
+        ],
+        "parameters": [
+          {
+            "name": "plate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rental": {
+      "post": {
+        "tags": [
+          "Rental"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rental/{id}": {
+      "get": {
+        "tags": [
+          "Rental"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Rental/{id}/return": {
+      "put": {
+        "tags": [
+          "Rental"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RentalReturnDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CNHType": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "DeliveryManCreateDto": {
+        "required": [
+          "birthDate",
+          "cnhNumber",
+          "cnhType",
+          "cnpj",
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "cnpj": {
+            "minLength": 1,
+            "pattern": "^\\d{14}$",
+            "type": "string"
+          },
+          "birthDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "cnhNumber": {
+            "minLength": 1,
+            "pattern": "^\\d{11}$",
+            "type": "string"
+          },
+          "cnhType": {
+            "$ref": "#/components/schemas/CNHType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MotorcycleCreateDto": {
+        "required": [
+          "model",
+          "plate",
+          "year"
+        ],
+        "type": "object",
+        "properties": {
+          "year": {
+            "maximum": 2100,
+            "minimum": 1900,
+            "type": "integer",
+            "format": "int32"
+          },
+          "model": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "plate": {
+            "minLength": 1,
+            "pattern": "^[A-Z]{3}-\\d{4}$",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MotorcycleUpdatePlateDto": {
+        "type": "object",
+        "properties": {
+          "plate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RentalCreateDto": {
+        "type": "object",
+        "properties": {
+          "deliveryManId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "motorcycleId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "planType": {
+            "$ref": "#/components/schemas/RentalPlanType"
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "predictedEndDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RentalPlanType": {
+        "enum": [
+          7,
+          15,
+          30,
+          45,
+          50
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "RentalReturnDto": {
+        "type": "object",
+        "properties": {
+          "rentalId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "returnDate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
