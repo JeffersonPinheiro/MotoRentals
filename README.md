@@ -1,4 +1,4 @@
-# 🏍️ MotoRentals (AlugarMottu)
+# 🏍️ MotoRentals
 
 API desenvolvida em **.NET 8** utilizando **Clean Architecture**, com suporte a **MongoDB** para persistência de dados, **RabbitMQ** para mensageria e upload de arquivos (CNH).  
 
